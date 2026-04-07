@@ -1,0 +1,45 @@
+# ========================
+# IntelliJ IDEA files
+# ========================
+.idea/
+*.iml
+*.iws
+
+# ========================
+# SBT / Scala build files
+# ========================
+target/
+project/target/
+project/project/
+project/etl-spark-scala-pipeline-build/
+
+# BSP (Build Server Protocol)
+.bsp/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# OS generated files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Output data (very important)
+# ========================
+output/
+spark-output/
+
+# ========================
+# Temporary files
+# ========================
+*.tmp
+*.swp
+
+# ========================
+# Compiled classes
+# ========================
+*.class
