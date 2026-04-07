@@ -8,6 +8,7 @@
 # ========================
 # SBT / Scala build files
 # ========================
+project/
 target/
 project/target/
 project/project/
