@@ -1,7 +1,7 @@
-# ETL Pipeline using Scala and Apache Spark
+# Scalable ETL Data Pipeline using Apache Spark (Scala)
 
 ## 📌 Overview
-This project demonstrates the design and implementation of an ETL (Extract, Transform, Load) pipeline using Apache Spark with Scala.
+To design and implement a scalable data pipeline for processing and analyzing structured sales data, ensuring data quality and enabling downstream analytics.
 
 The pipeline processes raw sales data, performs data cleaning and transformations, and generates meaningful business insights such as product performance, city-wise revenue, and payment method trends.
 
@@ -30,6 +30,7 @@ The pipeline follows a modular ETL design:
 - SBT (Build Tool)
 
 ---
+
 
 ## 📂 Project Structure
 etl-spark-scala-pipeline/
@@ -134,6 +135,15 @@ The pipeline is fully functional and can write output successfully in Linux-base
 
 ---
 
+## ⚙️ Data Engineering Concepts
+
+- ETL Pipeline Design
+- Data Cleaning & Validation
+- Data Transformation
+- Aggregation & Reporting
+- Handling Structured Data
+- Modular Pipeline Architecture
+
 ## 🔮 Future Improvements
 
 - Integrate with Airflow for scheduling
@@ -142,6 +152,10 @@ The pipeline is fully functional and can write output successfully in Linux-base
 - Add real-time streaming using Spark Streaming
 
 ---
+
+## 🏢 Industry Relevance
+
+This project simulates a real-world batch data processing pipeline used in analytics systems, where raw transactional data is transformed into actionable insights for business decision-making.
 
 ## 👩‍💻 Author
 Shwathi
